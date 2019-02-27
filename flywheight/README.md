@@ -10,3 +10,8 @@ From wikipedia:
 ## Use case
 
 This design pattern is used when the theorical representation of a program would necessitate a huge amount of reoccuring data, rapidly filling the computer memory. (e.g. text editing: we would like to have each character have it's own object containing its font and size. we will instead create a flyweight design pattern and each identical character will point to the same object.)
+
+## Example
+
+To compile the example, simply `make`. you can then run the binary by running `./flyweight`.
+*flyweight* is compiled with the -ggdb flag, you can run it with you're debugging program to understand its process.
